@@ -29,7 +29,7 @@
 
 /* Begin PBXFileReference section */
 		3BEA95A960F4A85547BEA7EB /* Pods_Polaris_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Polaris_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		4616A61447FEB87FDEF6C3CC /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		4616A61447FEB87FDEF6C3CC /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* Polaris_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Polaris_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACD51AFB9204008FA782 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -45,8 +45,8 @@
 		906760E542E7FA5A00058ADE /* Pods-Polaris_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Polaris_Example.debug.xcconfig"; path = "Target Support Files/Pods-Polaris_Example/Pods-Polaris_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		DC454F3D7BE71F4C2EAC1D77 /* Pods-Polaris_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Polaris_Example.release.xcconfig"; path = "Target Support Files/Pods-Polaris_Example/Pods-Polaris_Example.release.xcconfig"; sourceTree = "<group>"; };
 		E1089274B3B9389A3BB1CE71 /* Pods_Polaris_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Polaris_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		E68B45A0950A2BF90439A19F /* Polaris.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = Polaris.podspec; path = ../Polaris.podspec; sourceTree = "<group>"; };
-		F127627AE71B16ADC671A3C5 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		E68B45A0950A2BF90439A19F /* Polaris.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Polaris.podspec; path = ../Polaris.podspec; sourceTree = "<group>"; };
+		F127627AE71B16ADC671A3C5 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -147,7 +147,6 @@
 				8BBB9095B5ACC3ECDDD2BC0D /* Pods-Polaris_Tests.debug.xcconfig */,
 				77591BCAC3B326DD4CD9455C /* Pods-Polaris_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -227,6 +226,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -419,7 +419,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -465,7 +465,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";

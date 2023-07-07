@@ -22,7 +22,7 @@ pod 'Polaris'
 
 ## Author
 
-Sidus-WeiRuJian, choshim@sidus.link
+choshim@sidus.link
 
 ## License
 

@@ -1,0 +1,16 @@
+PODS:
+  - Polaris (0.1.0)
+
+DEPENDENCIES:
+  - Polaris (from `../`)
+
+EXTERNAL SOURCES:
+  Polaris:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  Polaris: e856da9df6b9be6d133b130526e8546909803dc6
+
+PODFILE CHECKSUM: 589c646ae43b3153b1ed102aba3801690ab3099f
+
+COCOAPODS: 1.12.0
