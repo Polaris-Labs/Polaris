@@ -1,16 +1,33 @@
 PODS:
-  - Polaris (0.1.0)
+  - Alamofire (5.7.1)
+  - Moya (15.0.0):
+    - Moya/Core (= 15.0.0)
+  - Moya/Core (15.0.0):
+    - Alamofire (~> 5.0)
+  - Polaris (0.0.1):
+    - Polaris/Core (= 0.0.1)
+  - Polaris/Core (0.0.1):
+    - Moya (~> 15.0.0)
+    - Polaris/Defaultable
+  - Polaris/Defaultable (0.0.1)
 
 DEPENDENCIES:
   - Polaris (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - Moya
 
 EXTERNAL SOURCES:
   Polaris:
     :path: "../"
 
 SPEC CHECKSUMS:
-  Polaris: e856da9df6b9be6d133b130526e8546909803dc6
+  Alamofire: 0123a34370cb170936ae79a8df46cc62b2edeb88
+  Moya: 138f0573e53411fb3dc17016add0b748dfbd78ee
+  Polaris: faee94e443823a31941dd0edb9a835407cd1f03c
 
-PODFILE CHECKSUM: 589c646ae43b3153b1ed102aba3801690ab3099f
+PODFILE CHECKSUM: e666933391ec6d27e1a8a911a82c0a8782f3a934
 
 COCOAPODS: 1.12.0

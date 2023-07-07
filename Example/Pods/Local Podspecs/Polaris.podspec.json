@@ -1,22 +1,42 @@
 {
   "name": "Polaris",
-  "version": "0.1.0",
+  "version": "0.0.1",
   "summary": "A short description of Polaris.",
   "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/Sidus-WeiRuJian/Polaris",
+  "homepage": "https://github.com/Polaris-Labs/Polaris",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
   },
   "authors": {
-    "Sidus-WeiRuJian": "choshim@sidus.link"
+    "Choshim.Wei": "choshim@sidus.link"
   },
   "source": {
-    "git": "https://github.com/Sidus-WeiRuJian/Polaris.git",
-    "tag": "0.1.0"
+    "git": "https://github.com/Polaris-Labs/Polaris.git",
+    "tag": "0.0.1"
   },
   "platforms": {
-    "ios": "10.0"
+    "ios": "11.0"
   },
-  "source_files": "Polaris/Classes/**/*"
+  "swift_versions": "5.8",
+  "default_subspecs": "Core",
+  "subspecs": [
+    {
+      "name": "Core",
+      "source_files": "Polaris/Classes/Core/**/*",
+      "dependencies": {
+        "Polaris/Defaultable": [
+
+        ],
+        "Moya": [
+          "~> 15.0.0"
+        ]
+      }
+    },
+    {
+      "name": "Defaultable",
+      "source_files": "Polaris/Classes/Defaultable/**/*"
+    }
+  ],
+  "swift_version": "5.8"
 }
