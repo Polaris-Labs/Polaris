@@ -15,7 +15,6 @@
 		92E354F17001CC1932138511795DDDD5 /* Polaris-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B01BC3074FDC64B48343F66C086206C3 /* Polaris-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B6894013972F4963CB778C3120C4E4C0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		BB370BBDF909127441AA3235E687C4DB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		E79DD9E4FA678765A576A49B5305AFBE /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2483EDF4AF7B7D8261930EBA2B67A17F /* ReplaceMe.swift */; };
 		F6AD592FBB3D4233DCFDF18FEE2CB334 /* Pods-Polaris_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C0F6C4FF5576C7CEDF9E2943FC3CE4FE /* Pods-Polaris_Example-dummy.m */; };
 /* End PBXBuildFile section */
 
@@ -37,20 +36,19 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		00CC8BDFB02A58CEA8D453FEF73D66E3 /* Polaris.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = Polaris.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		00CC8BDFB02A58CEA8D453FEF73D66E3 /* Polaris.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = Polaris.podspec; sourceTree = "<group>"; tabWidth = 2; };
 		0DDEDB52510AC9464756A6361EBA4A03 /* Pods-Polaris_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Polaris_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		1135F21D4CF57FB835018D0075DD7AD8 /* Pods-Polaris_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Polaris_Example-umbrella.h"; sourceTree = "<group>"; };
 		15F1153B3F4B8B42297797F8CE201F6C /* Polaris-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Polaris-Info.plist"; sourceTree = "<group>"; };
 		224AA23ED016AABF68A969A6C87704C4 /* Pods-Polaris_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Polaris_Example.modulemap"; sourceTree = "<group>"; };
 		224C7DB738FADF8DD324475706F20185 /* Pods-Polaris_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Polaris_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		2483EDF4AF7B7D8261930EBA2B67A17F /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = Polaris/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
 		2B6D8374CEAC4D79D4E3BAE03201F4ED /* Polaris-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Polaris-prefix.pch"; sourceTree = "<group>"; };
 		30348C1EA3484726EEAAA1EE9B5AEAF6 /* Polaris */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Polaris; path = Polaris.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		31F6BC50A07FE8339BB5CAB998A4443E /* Pods-Polaris_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Polaris_Tests.modulemap"; sourceTree = "<group>"; };
 		3356CB1A698CE25551FC41D2C23447A5 /* Pods-Polaris_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Polaris_Example.release.xcconfig"; sourceTree = "<group>"; };
 		358ADC12DFB68481029F2F20FBF5DA4C /* Pods-Polaris_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Polaris_Tests-Info.plist"; sourceTree = "<group>"; };
 		36FB18978C386E40153280EA8220D1A1 /* Pods-Polaris_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Polaris_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		3AE5ECFE8766515DBB8D59340D75EF52 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		3AE5ECFE8766515DBB8D59340D75EF52 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		525CC249FAC156EC7097CE785EFA2600 /* Pods-Polaris_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Polaris_Example-frameworks.sh"; sourceTree = "<group>"; };
 		6135DE88DC2D28FD32BFCA5D4EC29A36 /* Pods-Polaris_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Polaris_Example-Info.plist"; sourceTree = "<group>"; };
 		6ADB31F6645B19AEF0377076F1EF8281 /* Pods-Polaris_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Polaris_Tests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -60,7 +58,7 @@
 		84286558821B1190A95BB582CD46C225 /* Pods-Polaris_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Polaris_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		9BFE00A41CDA0C94FEEE02572A01F438 /* Polaris.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Polaris.release.xcconfig; sourceTree = "<group>"; };
 		9CB9469E512BAB5010CBC082D060EB9C /* Pods-Polaris_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Polaris_Tests-dummy.m"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A1AEF9463ACDB2C82961658388B8AA71 /* Polaris.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Polaris.modulemap; sourceTree = "<group>"; };
 		AA37A3E72DCA2AA2E1A969C053CA2935 /* Pods-Polaris_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Polaris_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		B01BC3074FDC64B48343F66C086206C3 /* Polaris-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Polaris-umbrella.h"; sourceTree = "<group>"; };
@@ -68,7 +66,7 @@
 		B4DDA053431BD433DDA758294ADDCB85 /* Pods-Polaris_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Polaris_Tests-umbrella.h"; sourceTree = "<group>"; };
 		C0F6C4FF5576C7CEDF9E2943FC3CE4FE /* Pods-Polaris_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Polaris_Example-dummy.m"; sourceTree = "<group>"; };
 		CAC246F9269DDA8F688D4B2DC9FCE344 /* Pods-Polaris_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-Polaris_Example"; path = Pods_Polaris_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		EA8BAEA0F3F5289605EEE24FA9EF2111 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		EA8BAEA0F3F5289605EEE24FA9EF2111 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		EB37C5E3774B05EBE7E153D5A263F7B7 /* Pods-Polaris_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-Polaris_Tests"; path = Pods_Polaris_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -113,7 +111,6 @@
 		1A6925906C42728F2562693C1C71143F /* Polaris */ = {
 			isa = PBXGroup;
 			children = (
-				2483EDF4AF7B7D8261930EBA2B67A17F /* ReplaceMe.swift */,
 				E95F8A295E03E50FC82EA1FE372A22D2 /* Pod */,
 				90E717F2DF3EA731A166CFEBD81C1849 /* Support Files */,
 			);
@@ -376,7 +373,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				188BCE4E0DACD2E94E770BA4B359B314 /* Polaris-dummy.m in Sources */,
-				E79DD9E4FA678765A576A49B5305AFBE /* ReplaceMe.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -597,8 +593,7 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
